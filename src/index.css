@@ -1,2 +1,29 @@
 @import "tailwindcss";
 
+ /* Reddit Mono */
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+/* Roma */
+@font-face {
+	font-family: "ROMA";
+	src: url("public/fonts/ROMA.otf") format("opentype");
+	font-style: normal;
+	font-display: swap;
+}
+
+@theme {
+	--font-roma: "ROMA", serif;
+	--font-reddit: "Reddit Mono", monospace;
+	--gradient-text: linear-gradient(
+			to bottom,
+			rgba(255, 255, 255) 0%,
+			black 70%
+	);
+}
+
+.header-gradient {
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-image: var(--gradient-text);
+}
