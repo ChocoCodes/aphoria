@@ -11,14 +11,28 @@
 	font-display: swap;
 }
 
+/*!*Debug*!*/
+/** {*/
+/*	outline: 1px solid red;*/
+/*}*/
+
+html, body {
+	box-sizing: border-box;
+}
+
 @theme {
 	--font-roma: "ROMA", serif;
 	--font-reddit: "Reddit Mono", monospace;
 	--gradient-text: linear-gradient(
 			to bottom,
-			rgba(255, 255, 255) 0%,
-			black 70%
+			#FFFFFF 30%,
+			#000000 100%
 	);
+
+	--text-header-fs: 6rem;
+	--text-header-fs-sm: 3rem;
+
+	--color-about-content: #F7F7F0;
 }
 
 .header-gradient {
