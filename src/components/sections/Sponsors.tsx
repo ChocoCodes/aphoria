@@ -7,10 +7,12 @@ const Sponsors = () => {
     return (
         <section className="relative bg-black w-full min-h-screen h-screen flex items-center justify-center p-4">
             {/* Background image with reduced opacity */}
-            <div
-                className="absolute inset-0 w-full h-full bg-cover bg-center opacity-20"
-                style={{ backgroundImage: `url(${sponsorBg})` }}
-            ></div>
+            <img
+                src={sponsorBg}
+                alt="Background"
+                className="absolute inset-0 w-full h-full object-cover opacity-20"
+            />
+
 
             {/* Content */}
             <div className="relative z-10 flex flex-col items-center justify-around h-4/5 max-w-6xl mx-auto">

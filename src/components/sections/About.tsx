@@ -6,7 +6,12 @@ const About = () => {
     return (
         <section className="relative bg-black w-full min-h-screen flex items-center justify-center p-8">
             {/* Background image with reduced opacity */}
-            <div className="absolute inset-0 w-full h-full bg-cover bg-center opacity-50" style={{ backgroundImage: `url(${aboutBg})` }}></div>
+            <img
+                src={aboutBg}
+                alt="Background"
+                className="absolute inset-0 w-full h-full object-cover opacity-50"
+            />
+
 
             {/* Content wrapper */}
             <div className="relative z-10 flex flex-col md:flex-row justify-center w-full max-w-8xl mx-auto">
