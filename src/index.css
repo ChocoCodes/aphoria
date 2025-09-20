@@ -15,10 +15,14 @@
 	--font-roma: "ROMA", serif;
 	--font-reddit: "Reddit Mono", monospace;
 	--gradient-text: linear-gradient(
-			to bottom,
-			rgba(255, 255, 255) 0%,
-			black 70%
+            to bottom,
+            #FFFFFF 30%,
+            #000000 100%
 	);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .header-gradient {
