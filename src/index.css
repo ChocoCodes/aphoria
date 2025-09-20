@@ -1,14 +1,23 @@
+/* Reddit Mono */
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
 @import "tailwindcss";
 
- /* Reddit Mono */
-@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
 
 /* Roma */
 @font-face {
 	font-family: "ROMA";
-	src: url("public/fonts/ROMA.otf") format("opentype");
+	src: url("/fonts/ROMA.otf") format("opentype");
 	font-style: normal;
 	font-display: swap;
+}
+
+/*!*Debug*!*/
+/** {*/
+/*	outline: 1px solid red;*/
+/*}*/
+
+html, body {
+	box-sizing: border-box;
 }
 
 @theme {
@@ -16,9 +25,14 @@
 	--font-reddit: "Reddit Mono", monospace;
 	--gradient-text: linear-gradient(
 			to bottom,
-			rgba(255, 255, 255) 0%,
-			black 70%
+			#FFFFFF 30%,
+			#000000 100%
 	);
+
+	--text-header-fs: 6rem;
+	--text-header-fs-sm: 3rem;
+
+	--color-about-content: #F7F7F0;
 }
 
 .header-gradient {
