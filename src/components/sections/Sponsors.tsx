@@ -23,8 +23,9 @@ const Sponsors = () => {
                         alt="four circles decoration"
                         className="absolute inset-0 w-full h-full pointer-events-none sm:object-cover object-contain overflow-visible"
                     />
-                    <h1 className="header-gradient text-header-fs-sm lg:text-header-fs font-roma px-4 sm:px-10 py-2 mt-4 sm:mt-8 text-center">
-                        EVENT SPONSORS
+                    <h1 className="text-header-fs-sm lg:text-header-fs font-roma leading-none px-4 sm:px-10 py-2 mt-4 sm:mt-8 text-center">
+                        <span className="inline-block header-gradient">EVENT&nbsp;</span>
+                        <span className="inline-block header-gradient">SPONSORS</span>
                     </h1>
                 </div>
 

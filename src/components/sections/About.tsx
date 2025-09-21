@@ -12,16 +12,18 @@ const About = () => {
                 className="absolute inset-0 w-full h-full object-cover opacity-50"
             />
 
-
             {/* Content wrapper */}
             <div className="relative z-10 flex flex-col md:flex-row justify-center w-full max-w-8xl mx-auto">
                 {/* Left content block */}
-                <div className="lg:w-1/2 flex flex-col md:justify-evenly py-10 text-center md:text-left gap-6">
-                    <h1 className="header-gradient text-header-fs-sm lg:text-header-fs font-roma mb-2">ABOUT APHORIA</h1>
-                    <p className="text-about-content text-lg lg:text-[1.875rem] md:w-4/5 font-reddit">
-                        An unidentified entity entered Earth’s orbit, and the research team sent to study said entity mysteriously went silent. 
-                        A relief crew is dispatched to recover the station’s data and the valuable discovery left behind. 
-                        But as they explore the deserted station, paranoia grows. 
+                <div className="md:w-3/5 lg:w-3/5 xl:w-1/2 flex flex-col md:justify-evenly p-10 text-center md:text-left gap-6">
+                    <h1 className="font-roma mb-2 leading-none text-header-fs-sm lg:text-header-fs">
+                        <span className="inline-block header-gradient">ABOUT&nbsp;</span>
+                        <span className="inline-block header-gradient">APHORIA</span>
+                    </h1>
+                    <p className="text-about-content text-lg lg:text-xl xl:text-[1.875rem] lg:w-4/5 font-reddit">
+                        An unidentified entity entered Earth's orbit, and the research team sent to study said entity mysteriously went silent.
+                        A relief crew is dispatched to recover the station's data and the valuable discovery left behind.
+                        But as they explore the deserted station, paranoia grows.
                         Something unnatural may be among them, and time is running out.
                     </p>
                     <div className="flex justify-center md:justify-start">
@@ -30,8 +32,8 @@ const About = () => {
                 </div>
 
                 {/* Astronaut image */}
-                <aside className="flex items-center justify-center">
-                    <img src={astronaut} alt="Astronaut" className="w-3/4 md:w-[400px] lg:w-[677px] max-w-[677px]"/>
+                <aside className="md:w-2/5 lg:w-2/5 xl:w-2/5 flex items-center justify-center">
+                    <img src={astronaut} alt="Astronaut" className="aspect-square w-3/4 md:w-full xl:h-full xl:max-h-4/5 object-cover overflow-visible"/>
                 </aside>
             </div>
         </section>
