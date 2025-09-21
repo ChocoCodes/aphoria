@@ -22,13 +22,13 @@ const Hero = () => {
                     {/* Hero text */}
                     <div className="relative w-fit flex justify-center items-center">
                         <img src={satellite} className="absolute bottom-[100px] right-[100px] sm:bottom-[250px] sm:right-[300px] lg:bottom-[200px] lg:right-[500px] w-48 sm:w-64" alt="satellite" />
-                        <h1 className="text-[3rem] sm:text-[6rem] lg:text-[8rem] font-bold font-roma header-gradient z-20">APHORIA</h1>
+                        <h1 className="text-[3rem] sm:text-[6rem] lg:text-[9rem] font-bold font-roma header-gradient z-20">APHORIA</h1>
                         <hr className="absolute bottom-[15px] sm:bottom-[35px] w-[250px] sm:w-[500px] lg:w-[650px] border-white"></hr>
                         <img src={ring} className="absolute w-full md:w-5/6" alt="ring" />
-                        <img src={astronaut} className="absolute w-36 sm:w-64 md:w-72 bottom-[10px] left-[150px] sm:bottom-[30px] sm:left-[300px] lg:bottom-[60px] lg:left-[420px]" alt="astronaut"/>
+                        <img src={astronaut} className="absolute w-36 sm:w-64 md:w-72 bottom-[10px] left-[150px] sm:bottom-[30px] sm:left-[300px] lg:bottom-[80px] lg:left-[480px]" alt="astronaut"/>
                     </div>
                     {/* Button container */}
-                    <div className="w-full lg:w-2/3 max-w-3xl flex justify-center lg:justify-between items-center gap-4">
+                    <div className="w-full lg:w-2/3 max-w-3xl flex justify-center items-center gap-4 lg:gap-32">
                         <Button href="#about">
                             ABOUT
                         </Button>
