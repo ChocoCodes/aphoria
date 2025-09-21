@@ -18,7 +18,7 @@ const About = () => {
                 {/* Left content block */}
                 <div className="lg:w-1/2 flex flex-col md:justify-evenly py-10 text-center md:text-left gap-6">
                     <h1 className="header-gradient text-header-fs-sm lg:text-header-fs font-roma mb-2">ABOUT APHORIA</h1>
-                    <p className="text-about-content text-lg lg:text-[1.875rem] md:w-4/5">
+                    <p className="text-about-content text-lg lg:text-[1.875rem] md:w-4/5 font-reddit">
                         An unidentified entity entered Earth’s orbit, and the research team sent to study said entity mysteriously went silent. 
                         A relief crew is dispatched to recover the station’s data and the valuable discovery left behind. 
                         But as they explore the deserted station, paranoia grows. 
