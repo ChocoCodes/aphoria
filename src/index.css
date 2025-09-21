@@ -1,5 +1,8 @@
 /* Reddit Mono */
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+/* inter font (google sans alt) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 @import "tailwindcss";
 
 
@@ -27,6 +30,7 @@ html, body {
 @theme {
 	--font-roma: "ROMA", serif;
 	--font-reddit: "Reddit Mono", monospace;
+	--font-inter: "Inter", sans-serif ;
 	--gradient-text: linear-gradient(
 			to bottom,
 			#FFFFFF 30%,

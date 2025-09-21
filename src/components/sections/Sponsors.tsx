@@ -5,7 +5,7 @@ import rightBracket from "../../assets/svg/right-bracket.svg";
 
 const Sponsors = () => {
     return (
-        <section className="relative bg-black w-full min-h-screen h-screen flex items-center justify-center p-4">
+        <section className="relative bg-black w-full min-h-screen h-screen flex items-center justify-center p-4" id="sponsors">
             {/* Background image with reduced opacity */}
             <img
                 src={sponsorBg}
