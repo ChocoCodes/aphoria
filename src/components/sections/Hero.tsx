@@ -8,7 +8,7 @@ import Button from "../Button.tsx";
 
 const Hero = () => {
     return (
-        <section className="relative w-full min-h-screen bg-black">
+        <section className="relative w-full min-h-screen bg-black" id="hero">
             {/* Background image */}
             <img src={heroWave} className="absolute inset-0 h-full w-full object-cover" alt="hero background" />
             {/* Stars */}

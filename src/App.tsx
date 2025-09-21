@@ -3,6 +3,7 @@ import About from "./components/sections/About.tsx";
 import Ticket from "./components/sections/Ticket.tsx";
 import Sponsors from "./components/sections/Sponsors.tsx";
 import Footer from "./components/Footer.tsx";
+import { BackToTop } from './components/BackToTop.tsx';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Ticket />
         <Sponsors />
         <Footer />
+        <BackToTop />
     </>
   )
 }

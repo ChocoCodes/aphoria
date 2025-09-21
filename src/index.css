@@ -16,6 +16,10 @@
 /*	outline: 1px solid red;*/
 /*}*/
 
+html {
+	scroll-behavior: smooth;
+}
+
 html, body {
 	box-sizing: border-box;
 }
@@ -40,4 +44,26 @@ html, body {
 	background-clip: text;
 	-webkit-background-clip: text;
 	background-image: var(--gradient-text);
+}
+
+.float {
+	animation: float 7s infinite linear;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0);
+	} 
+	25% {
+		transform: translateY(-20px);
+	}
+	50% {
+		transform: translateY(0);
+	}
+	75% {
+		transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(0);
+	}
 }
