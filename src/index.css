@@ -16,6 +16,10 @@
 /*	outline: 1px solid red;*/
 /*}*/
 
+html {
+	scroll-behavior: smooth;
+}
+
 html, body {
 	box-sizing: border-box;
 }
