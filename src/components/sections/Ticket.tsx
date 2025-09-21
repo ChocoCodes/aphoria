@@ -28,7 +28,7 @@ const Ticket = () => {
                             <img src={rightBracket} alt="" className="w-[5%] md:w-[5%]"/>
                         </div>
                         <h4 className="font-roma header-gradient text-[2em] md:text-[3em] mt-[1em]">Regular</h4>
-                        <h3 className="font-reddit text-white text-[1em] md:text-[2em] mt-[0.5em]">Perks</h3>
+                        <h3 className="font-reddit font-semibold text-white text-[1em] md:text-[2em] mt-[0.5em]">Perks</h3>
                         <ul className="font-reddit text-white text-center">
                             <li>Standard Queue</li>
                             <li>Full Booth Access</li>
@@ -42,7 +42,7 @@ const Ticket = () => {
                             <img src={rightBracket} alt="" className="w-[5%] md:w-[5%]"/>
                         </div>
                         <h4 className="font-roma header-gradient text-[2em] md:text-[3em] mt-[1em]">VIP</h4>
-                        <h3 className="font-reddit text-white text-[1em] md:text-[2em] mt-[0.5em]">Perks</h3>
+                        <h3 className="font-reddit font-semibold text-white text-[1em] md:text-[2em] mt-[0.5em]">Perks</h3>
                         <ul className="font-reddit text-white text-center">
                             <li>Skip the Wait</li>
                             <li>Anytime Access</li>

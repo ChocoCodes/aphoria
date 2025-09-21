@@ -17,7 +17,7 @@ const Footer = () => {
             />
 
 
-            <div className="container w-4/5 mx-auto pt-[1em] pb-[3em] z-10 relative md:flex justify-between">
+            <div className="container w-9/10 mx-auto pt-[1em] pb-[3em] px-4 z-10 relative md:flex justify-between">
 
                 <div className="first-group">
                     <img src={footerLogo} alt="" />
@@ -34,7 +34,7 @@ const Footer = () => {
                             {/* content above */}
                             <div className="relative z-10 flex items-center">
                             <img src={footerRadar} alt="" />
-                            <h3 className="header-gradient mb-[-5px] ml-[0.75em]">Ask a Question</h3>
+                            <h3 className="text-white mb-[-5px] ml-[0.75em]">Ask a Question</h3>
                             </div>
                         </div>
                     </a>
@@ -43,19 +43,19 @@ const Footer = () => {
 
                 <div className="second-group flex items-start justify-between mt-[2em] md:mt-[0] gap-15">
                     <div className="">
-                        <img src={footerInfo} alt="" />
+                        <img src={footerInfo} alt="info-text" />
                         <ul className="font-inter font-semibold mt-2">
-                            <li><a href="#about" className="header-gradient text-[1.25em]">About</a></li>
-                            <li><a href="#tickets" className="header-gradient text-[1.25em]">Tickets</a></li>
-                            <li><a href="#sponsors" className="header-gradient text-[1.25em]">Sponsors</a></li>
+                            <li><a href="#about" className="text-white/90 text-[1.25em]">About</a></li>
+                            <li><a href="#tickets" className="text-white/90 text-[1.25em]">Tickets</a></li>
+                            <li><a href="#sponsors" className="text-white/90 text-[1.25em]">Sponsors</a></li>
                         </ul>
                     </div>
-                    <div className="">
-                        <img src={footerContact} alt="" />
+                    <div>
+                        <img src={footerContact} alt="info-text" />
                         <ul className="md:text-right font-inter font-semibold mt-2">
-                            <li><a href="https://www.facebook.com/dsc.usls/" className="header-gradient text-[1.25em]" target="blank">Facebook</a></li>
-                            <li><a href="https://www.instagram.com/gdg.usls/" className="header-gradient text-[1.25em]" target="blank">Instagram</a></li>
-                            <li><a href="mailto:gdg@usls.edu.ph" className="header-gradient text-[1.25em]" target="blank">Email</a></li>
+                            <li><a href="https://www.facebook.com/dsc.usls/" className="text-white/90 text-[1.25em]" target="blank">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/gdg.usls/" className="text-white/90 text-[1.25em]" target="blank">Instagram</a></li>
+                            <li><a href="mailto:gdg@usls.edu.ph" className="text-white/90 text-[1.25em]" target="blank">Email</a></li>
                         </ul>
                     </div>
                 </div>
