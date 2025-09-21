@@ -41,7 +41,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className="second-group flex items-start justify-between mt-[2em] md:mt-[0]">
+                <div className="second-group flex items-start justify-between mt-[2em] md:mt-[0] gap-15">
                     <div className="">
                         <img src={footerInfo} alt="" />
                         <ul className="font-inter font-semibold mt-2">
