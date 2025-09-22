@@ -8,7 +8,6 @@ import footerContact from "../assets/images/footer-contact.png"
 const Footer = () => {
     return (
         <footer className="w-full bg-black relative" id="contact">
-
             {/* Background image with reduced opacity */}
             <img
                 src={footerBg}
@@ -16,12 +15,9 @@ const Footer = () => {
                 className="absolute inset-0 w-full h-full object-cover opacity-75"
             />
 
-
-            <div className="container w-9/10 mx-auto py-8 z-10 relative flex items-center justify-between">
-
-                <div className="first-group">
-                    <img src={footerLogo} alt="" />
-                    
+            <div className="container w-9/10 mx-auto py-8 z-10 relative flex flex-col gap-5 sm:gap-0 sm:flex-row items-start sm:items-center justify-between">
+                <div className="first-group sm:w-auto w-full">
+                    <img src={footerLogo} alt="Aphoria Logo"/>
                     <a href="https://m.me/dsc.usls" target="blank" className="font-roma inline-block relative transition-transform duration-500 hover:scale-110">
                         <div className="relative w-[200px] flex items-center justify-center px-[1em] py-[0.5em] rounded-full overflow-hidden">
                             {/* background image */}
@@ -38,10 +34,9 @@ const Footer = () => {
                             </div>
                         </div>
                     </a>
-
                 </div>
 
-                <div className="second-group flex items-start justify-between mt-[2em] md:mt-[0] gap-15">
+                <div className="second-group flex flex-col sm:flex-row items-start sm:justify-between mt-[2em] md:mt-[0] gap-5 sm:gap-15">
                     <div className="">
                         <img src={footerInfo} alt="info-text" />
                         <ul className="font-inter font-semibold mt-2">
