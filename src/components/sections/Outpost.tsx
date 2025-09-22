@@ -4,7 +4,7 @@ import Map from "../../assets/images/outline-map.png";
 
 const Outpost = () => {
     return (
-        <section className="relative bg-black w-full min-h-screen h-screen flex items-center justify-center p-4" id="sponsors">
+        <section className="relative bg-black w-full min-h-screen h-screen flex items-center justify-center p-4" id="outposts">
             {/* Background image with reduced opacity */}
             <img
                 src={sponsorBg}
@@ -14,7 +14,7 @@ const Outpost = () => {
 
 
             {/* Content */}
-            <div className="relative z-10 flex flex-col items-center justify-around h-4/5 max-w-6xl mx-auto gap-5 md:gap-15">
+            <div className="relative z-10 flex flex-col items-center justify-around max-w-6xl mx-auto gap-5 md:gap-15">
                 {/* Header */}
                 <div className="relative flex justify-center items-center overflow-visible">
                     <img
@@ -23,7 +23,7 @@ const Outpost = () => {
                         className="absolute inset-0 w-full h-full pointer-events-none sm:object-cover object-contain overflow-visible"
                     />
                     <h1 className="text-header-fs-sm lg:text-header-fs font-roma leading-none px-4 sm:px-10 py-2 mt-4 sm:mt-8 text-center">
-                        <span className="inline-block header-gradient">OUTPOST </span>
+                        <span className="inline-block header-gradient">OUTPOST</span>
                     </h1>
                 </div>
                 {/* Room Info Content */}
@@ -36,7 +36,7 @@ const Outpost = () => {
                     </div>
 
                     <div className="flex flex-col text-white font-reddit gap-4 md:gap-8">
-                        <a href='https://maps.app.goo.gl/E9tD7WT7A8N6po5W9' target='_blank' className="font-semibold text-4xl md:text-5xl md:tracking-wide text-center">OUTPOST <span className="underline">MM23</span></a>
+                        <a href='https://maps.app.goo.gl/E9tD7WT7A8N6po5W9' target='_blank' className="font-bold text-4xl md:text-5xl md:tracking-wide text-center">OUTPOST <span className="underline">MM23</span></a>
                         <div className="flex flex-col gap-1 md:gap-2">
                             <p className="font-semibold text-2xl md:text-3xl">SECTOR COORDINATES:</p>
                             <p className="text-md md:text-xl">LAT 10°40'42.0"N | LON 122°57'44.9"E</p>
