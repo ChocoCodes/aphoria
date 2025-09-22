@@ -15,7 +15,7 @@ const Footer = () => {
                 className="absolute inset-0 w-full h-full object-cover opacity-75"
             />
 
-            <div className="container w-9/10 mx-auto py-8 z-10 relative flex flex-col gap-5 sm:gap-0 sm:flex-row items-start sm:items-center justify-between">
+            <div className="container w-9/10 mx-auto py-8 z-9 relative flex flex-col gap-5 sm:gap-0 sm:flex-row items-start sm:items-center justify-between">
                 <div className="first-group sm:w-auto w-full">
                     <img src={footerLogo} alt="Aphoria Logo"/>
                     <a href="https://m.me/dsc.usls" target="blank" className="font-roma inline-block relative transition-transform duration-500 hover:scale-110">
