@@ -17,7 +17,7 @@ const Ticket = () => {
 
 
             <div className="container w-4/5 mx-auto relative z-10">
-                <h1 className={"header-gradient text-[3em] sm:text-[3.5em] md:text-[4em] lg:text-[6em] font-roma text-center"}>EVENT TICKETS</h1>
+                <h1 className={"header-gradient text-[3em] sm:text-[3.5em] md:text-[4em] lg:text-[6em] font-roma text-center"}>TICKETS</h1>
 
                 <div className="ticket-container md:flex justify-around items-start mt-[4em]">
 
@@ -28,8 +28,8 @@ const Ticket = () => {
                             <img src={rightBracket} alt="" className="w-[5%] md:w-[5%]"/>
                         </div>
                         <h4 className="font-roma header-gradient text-[2em] md:text-[3em] mt-[1em]">Regular</h4>
-                        <h3 className="font-reddit font-semibold text-white text-[1em] md:text-[2em] mt-[0.5em]">Perks</h3>
-                        <ul className="font-reddit text-white text-center">
+                        <h3 className="font-reddit font-semibold text-white text-[1em] md:text-4xl mt-[0.5em]">Perks</h3>
+                        <ul className="font-reddit text-white text-left text-xl mt-2">
                             <li>Standard Queue</li>
                             <li>Full Booth Access</li>
                         </ul>
@@ -42,8 +42,8 @@ const Ticket = () => {
                             <img src={rightBracket} alt="" className="w-[5%] md:w-[5%]"/>
                         </div>
                         <h4 className="font-roma header-gradient text-[2em] md:text-[3em] mt-[1em]">VIP</h4>
-                        <h3 className="font-reddit font-semibold text-white text-[1em] md:text-[2em] mt-[0.5em]">Perks</h3>
-                        <ul className="font-reddit text-white text-center">
+                        <h3 className="font-reddit font-semibold text-white text-[1em] md:text-4xl mt-[0.5em]">Perks</h3>
+                        <ul className="font-reddit text-white text-left text-xl mt-2">
                             <li>Skip the Wait</li>
                             <li>Anytime Access</li>
                             <li>Exclusive Freebies (while supplies last!)</li>
