@@ -12,7 +12,7 @@ const container = {
     show: {
         opacity: 1,
         transition: {
-            staggerChildren: 1, // delay between children
+            staggerChildren: 0.4, // delay between children
         },
     },
 };
@@ -22,7 +22,7 @@ const item = {
     show: {
         y: 0,
         opacity: 1,
-        transition: { duration: 1}
+        transition: { duration: 0.5 }
     },
 };
 
@@ -31,7 +31,7 @@ const Hero = () => {
         <section className="relative w-full min-h-screen bg-black" id="hero">
             {/* Background image */}
             <motion.img
-                src={heroWave}
+                src={ heroWave }
                 alt="hero background"
                 className="absolute inset-0 h-full w-full object-cover"
                 initial={{ opacity: 0 }}
@@ -40,7 +40,7 @@ const Hero = () => {
             />
             {/* Stars */}
             <motion.img
-                src={stars}
+                src={ stars }
                 className="absolute inset-0 h-full object-cover"
                 alt="star background"
                 initial={{ opacity: 0 }}
@@ -61,7 +61,7 @@ const Hero = () => {
                     {/* Hero text */}
                     <motion.div
                         className="relative w-fit flex justify-center items-center"
-                        variants={item}
+                        variants={ item }
                     >
                         <img src={satellite} className="absolute bottom-[100px] right-[100px] sm:bottom-[250px] sm:right-[300px] lg:bottom-[200px] lg:right-[500px] w-48 sm:w-64 orbit" alt="satellite" />
                         <h1 className="text-[3rem] sm:text-[6rem] lg:text-[9rem] font-bold font-roma header-gradient z-20">APHORIA</h1>
@@ -72,7 +72,7 @@ const Hero = () => {
                     {/* Button container */}
                     <motion.div
                         className="w-full lg:w-2/3 max-w-3xl flex justify-center items-center gap-4 lg:gap-32"
-                        variants={item}
+                        variants={ item }
                     >
                         <Button href="#about">
                             ABOUT

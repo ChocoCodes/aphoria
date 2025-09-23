@@ -5,7 +5,7 @@ import { motion } from 'motion/react';
 
 const Outpost = () => {
     return (
-        <section className="relative bg-black w-full min-h-screen h-screen flex items-center justify-center p-4" id="outposts">
+        <section className="relative bg-black w-full min-h-screen h-screen flex items-center justify-center p-4" id="outpost">
             {/* Background image with reduced opacity */}
             <img
                 src={sponsorBg}
@@ -19,7 +19,7 @@ const Outpost = () => {
                 className="relative z-10 flex flex-col items-center justify-around max-w-6xl mx-auto gap-5 md:gap-15"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 1.5 }}
+                transition={{ duration: 0.7 }}
                 viewport={{ once: true, amount: 0.5 }}
             >
                 {/* Header */}

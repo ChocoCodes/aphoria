@@ -16,7 +16,7 @@ const Decode = () => {
                 className="flex flex-col items-center justify-center gap-20"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 1.5 }}
+                transition={{ duration: 0.5 }}
                 viewport={{ once: true, amount: 0.5 }}
             >
                 <img src={ hints } alt="Hint Table" className='w-full md:w-1/2 h-1/2'/>

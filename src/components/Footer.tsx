@@ -20,8 +20,8 @@ const Footer = () => {
                 className="container w-9/10 mx-auto py-8 z-9 relative flex flex-col gap-5 sm:gap-0 sm:flex-row items-start sm:items-center justify-between"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 1.5 }}
-                viewport={{ once: true, amount: 1 }}
+                transition={{ duration: 0.5 }}
+                viewport={{ once: true, amount: 0.4 }}
             >
                 <div className="first-group sm:w-auto w-full">
                     <img src={footerLogo} alt="Aphoria Logo"/>
@@ -49,7 +49,7 @@ const Footer = () => {
                         <ul className="font-inter font-semibold mt-2">
                             <li><a href="#about" className="text-white/90 text-lg">About</a></li>
                             <li><a href="#tickets" className="text-white/90 text-lg">Tickets</a></li>
-                            <li><a href="#sponsors" className="text-white/90 text-lg">Sponsors</a></li>
+                            <li><a href="#outpost" className="text-white/90 text-lg">Outpost</a></li>
                         </ul>
                     </div>
                     <div>

@@ -18,7 +18,7 @@ const About = () => {
                 className="relative z-10 flex flex-col md:flex-row justify-center w-full max-w-8xl mx-auto"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 1.5 }}
+                transition={{ duration: 0.5 }}
                 viewport={{ once: true, amount: 0.5 }}
             >
                 {/* Left content block */}
