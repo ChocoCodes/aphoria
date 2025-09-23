@@ -54,6 +54,15 @@ html, body {
 	animation: float 7s infinite linear;
 }
 
+.hero-float {
+    animation: hero-float 3s infinite linear;
+}
+
+.orbit {
+    animation: orbit 20s infinite linear;
+    transform-origin: 50% 50%;
+}
+
 @keyframes float {
 	0% {
 		transform: translateY(0);
@@ -70,4 +79,25 @@ html, body {
 	100% {
 		transform: translateY(0);
 	}
+}
+
+@keyframes hero-float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes orbit {
+    0% {
+        transform: rotate(0deg) translateX(40px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translateX(40px) rotate(-360deg);
+    }
 }

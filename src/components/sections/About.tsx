@@ -1,6 +1,7 @@
 import aboutBg from '../../assets/images/about-bg.jpg';
 import threeStars from '../../assets/svg/three-star-pattern.svg';
 import astronaut from '../../assets/images/about-astronaut.png';
+import { motion } from 'motion/react';
 
 const About = () => {
     return (
@@ -13,7 +14,13 @@ const About = () => {
             />
 
             {/* Content wrapper */}
-            <div className="relative z-10 flex flex-col md:flex-row justify-center w-full max-w-8xl mx-auto">
+            <motion.div
+                className="relative z-10 flex flex-col md:flex-row justify-center w-full max-w-8xl mx-auto"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1.5 }}
+                viewport={{ once: true, amount: 0.5 }}
+            >
                 {/* Left content block */}
                 <div className="lg:w-1/2 flex flex-col md:justify-evenly py-10 text-center md:text-left gap-6">
                     <h1 className="header-gradient text-header-fs-sm lg:text-header-fs font-roma mb-2">ABOUT</h1>
@@ -32,7 +39,7 @@ const About = () => {
                 <div className="flex items-center justify-center">
                     <img src={astronaut} alt="Astronaut" className="w-3/4 md:w-[400px] lg:w-[677px] max-w-[677px] float"/>
                 </div>
-            </div>
+            </motion.div>
         </section>
     );
 };

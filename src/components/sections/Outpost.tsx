@@ -1,6 +1,7 @@
 import sponsorBg from "../../assets/images/sponsors-bg.png";
 import fourCircles from "../../assets/svg/four-circles.svg";
 import Map from "../../assets/images/outline-map.png";
+import { motion } from 'motion/react';
 
 const Outpost = () => {
     return (
@@ -14,7 +15,13 @@ const Outpost = () => {
 
 
             {/* Content */}
-            <div className="relative z-10 flex flex-col items-center justify-around max-w-6xl mx-auto gap-5 md:gap-15">
+            <motion.div
+                className="relative z-10 flex flex-col items-center justify-around max-w-6xl mx-auto gap-5 md:gap-15"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1.5 }}
+                viewport={{ once: true, amount: 0.5 }}
+            >
                 {/* Header */}
                 <div className="relative flex justify-center items-center overflow-visible">
                     <img
@@ -48,7 +55,7 @@ const Outpost = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </section>
     );
 };
