@@ -4,6 +4,7 @@ import footerBtnBg from "../assets/images/footer-btn-bg.png"
 import footerBg from "../assets/images/footer-bg.png"
 import footerInfo from "../assets/images/footer-info.png"
 import footerContact from "../assets/images/footer-contact.png"
+import { motion } from 'motion/react';
 
 const Footer = () => {
     return (
@@ -15,7 +16,13 @@ const Footer = () => {
                 className="absolute inset-0 w-full h-full object-cover opacity-75"
             />
 
-            <div className="container w-9/10 mx-auto py-8 z-9 relative flex flex-col gap-5 sm:gap-0 sm:flex-row items-start sm:items-center justify-between">
+            <motion.div
+                className="container w-9/10 mx-auto py-8 z-9 relative flex flex-col gap-5 sm:gap-0 sm:flex-row items-start sm:items-center justify-between"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1.5 }}
+                viewport={{ once: true, amount: 1 }}
+            >
                 <div className="first-group sm:w-auto w-full">
                     <img src={footerLogo} alt="Aphoria Logo"/>
                     <a href="https://m.me/dsc.usls" target="blank" className="font-roma inline-block relative transition-transform duration-500 hover:scale-110">
@@ -54,7 +61,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </footer>
     );
 };
